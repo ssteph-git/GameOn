@@ -158,7 +158,7 @@ main {
 }
 
 .bground {
-  display: none;
+  display: none;/*Permet de désactiver le formulaire: avant que l'on click dessus*/
   position: fixed;
   z-index: 1;
   left: 0;
