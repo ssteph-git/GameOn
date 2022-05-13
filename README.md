@@ -1,5 +1,8 @@
 # Projet GameOn
-1. Forkez ce repo ;
-2. Il est conseillé d'utiliser VisualStudio Code et vous pouvez utiliser Docker, mais ce n'est pas obligatoire ;
-3. Il n'y a aucune dépendance ;
-4. Vous ne devez utiliser que du CSS personnalisé et du JavaScript pur, sans jQuery, Bootstrap ou autre librairie.
+Voici le code du projet 4 (créez une landing page avec Javascript), du cursus "Développeur d'application - JavaScript React" chez Openclassrooms".
+
+Qui comprend :
+
+- le code JavaScript manquant du formulaire.
+- la correction du projet en fonction des "issues" indiquées.
+- la correction du projet pour la partie "responsive" (mobile et desktop).
