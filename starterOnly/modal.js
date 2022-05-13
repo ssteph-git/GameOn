@@ -1,12 +1,3 @@
-
-
-// const f=function(){editNav('myTopnav')}
-// const f2=editNav('myTopnav')
-
-
-
-
-
 //SELECTIONS DES ELEMENTS DU DOM------------------------------------------------
 //Sélection des modales
 const modalbg = document.querySelector(".bground");
@@ -31,7 +22,6 @@ const icon3 = document.getElementById('icon3');
 //Selection du bouton de validation du formulaire
 const submit = document.getElementById('submit');
 //SELECTIONS DES ELEMENTS DU DOM------------------------------------------------
-
 
 //LANCEMENT DES ECOUTEURS D'EVENEMENTS-----------------------------------
 //Ouverture du menu en mobile
