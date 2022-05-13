@@ -140,7 +140,7 @@ main {
   background-color: rgba(26, 39, 156, 0.4);
 }
 
-.bground-Valide {
+.bground-Valide { /*Class pour la modale du message de validation est bien passé*/
   display: none; /*Permet de désactiver le formulaire: avant que l'on click dessus*/
   position: fixed;
   z-index: 1;
@@ -486,7 +486,7 @@ footer {
   margin: 0 20px;
 }
 
-.OK {
+.OK { /*class permettant de centrer le message au milieu*/
   /* margin: auto; */
   position: fixed;
   top: 50%;
@@ -506,7 +506,7 @@ footer {
     max-width: 500px;
   }
 
-  .OK {
+  .OK { /*class permettant de centrer le message au milieu*/
     position: relative;
     top: 50%;
     left: 10%;
@@ -581,7 +581,7 @@ footer {
     width: 30vw; /*adaptation de l'image du logo à la modale*/
   }
 
-  #myTopnav3 .btn-submit {
+  #myTopnav3 .btn-submit { /*Alignement du bouton vers le bas de la page*/
     position: fixed;
     bottom: 10px;
   }
@@ -647,7 +647,7 @@ footer {
 }
 
 @media screen and (max-width: 300px) {
-  .OK {
+  .OK { /*class permettant de centrer le message au milieu*/
     font-size: 30px;
   }
 }

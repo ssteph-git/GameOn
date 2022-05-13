@@ -14,7 +14,7 @@ const modalBtCloseValideBouton = document.querySelector(".valide2");
 //Selection de chaque champ du formulaire
 const formData = document.querySelectorAll(".formData");
 
-//Selection de l'icone du menu en responsive
+//Selection de l'icone du menu en mobile
 const icon = document.getElementById('icon');
 const icon2 = document.getElementById('icon2');
 const icon3 = document.getElementById('icon3');
@@ -60,9 +60,7 @@ function editNav(id) {
 }
 
 //Algorithme  de validation du formulaire
-function validate(e) {
-  // e.preventDefault();
-  // e.stopPropagation();
+function validate() {
 
   //Selection des éléments du DOM
   let firstName = document.forms["reserve"]["first"];
