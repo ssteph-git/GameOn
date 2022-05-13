@@ -510,9 +510,9 @@ footer {
     margin-top: 25px; 
   }
 
-  /* .topnav .align{
+  .topnav .align{
     margin-top: 80px; 
-  } */
+  }
 
   .topnav.responsive a {
     float: none;
@@ -527,6 +527,12 @@ footer {
     /* margin: 25px;  */
     margin: 25px 25px 0px 25px; /*Permet de centrer correctement l'icone*/
     color: red;/*Rajout de la couleur rouge à l'icone*/
+
+  }
+
+  .topnav a.icon:hover {
+    
+    color: white;/*Rajout de la couleur blanche à l'icone*/
 
   }
 
