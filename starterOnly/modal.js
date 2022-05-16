@@ -125,7 +125,7 @@ function validate() {
     valeur = true;
   }
 
-  if (quantity.value == "" || isNaN(quantity.value)) {
+  if (quantity.value == "" || isNaN(quantity.value) ||quantity.value < 0) {
     formData[4].setAttribute("data-error", "Veuillez entrer un nombre.");
     formData[4].setAttribute("data-error-visible", "true");
   }
