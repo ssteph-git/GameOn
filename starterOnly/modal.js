@@ -74,10 +74,13 @@ function validate() {
   let nbFirstName = firstName.value.trim(); //trim: permet de supprimer les espaces vides tapés
   let nbLasttName = lastName.value.trim();
 
-  //Compteur inversé de champs non validé du formulaire
-  let notValidate = 6;
+  //regex acceptant les noms composé avec caractères accentués, mais rejetant les chiffres, et les caractères spéciaux
+  let regexFirstName = /^[A-Za-zÀÖØ-öø-ÿ]{2,}$|^[A-Za-zÀ-ÖØ-öø-ÿ]+\-[A-Za-zÀÖØ-öø-ÿ]{2,}$/gi;
+  let regexLastName = /^[A-Za-zÀÖØ-öø-ÿ]{2,}$|^[A-Za-zÀ-ÖØ-öø-ÿ]+\-[A-Za-zÀÖØ-öø-ÿ]{2,}$/gi;
 
-  if (nbFirstName.length < 2) {
+  let notValidate = 6;
+  
+  if (!nbFirstName.match(regexFirstName)) {
     formData[0].setAttribute("data-error", "Veuillez entrer 2 caractères ou plus pour le champ du nom.");
     formData[0].setAttribute("data-error-visible", "true");
   }
@@ -86,7 +89,7 @@ function validate() {
     formData[0].setAttribute("data-error-visible", "false");
   }
 
-  if (nbLasttName.length < 2) {
+  if (!nbLasttName.match(regexLastName)) {
     formData[1].setAttribute("data-error", "Veuillez entrer 2 caractères ou plus pour le champ du nom.");
     formData[1].setAttribute("data-error-visible", "true");
   }
